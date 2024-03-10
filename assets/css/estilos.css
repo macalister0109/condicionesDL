@@ -25,17 +25,28 @@ body{
 .sticker{
     width: 20%;
 }
-.contenedor_stickers{
-   width: 100%;
-   display: none;
-}
-.contenedor_stickers{
+#tarea1{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    margin: 20px;
 }
+#tarea2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 20px;
+}
+#tarea3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 20px;
 
+}
 div h2{
     text-align: center;
     margin-top: 20px;
