@@ -13,3 +13,30 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #6b5d5d;
 }
+#tarea1 #imagen{
+    display: flex;
+    justify-content: center;
+}
+.stickers{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sticker{
+    width: 20%;
+}
+.contenedor_stickers{
+   width: 100%;
+   display: none;
+}
+.contenedor_stickers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div h2{
+    text-align: center;
+    margin-top: 20px;
+}
