@@ -25,7 +25,18 @@ function verificarCantStickers(){
 function limpiar(){ 
     document.querySelector("#txt1").value=""
     document.querySelector("#txt2").value=""
-    document.querySelector("#txt3").value=""
-    
+    document.querySelector("#txt3").value=""    
+}
+
+function verificarPassword(){   
+    num1=Number(document.querySelector("#seleccion1").value)
+    num2=Number(document.querySelector("#seleccion2").value)
+    num3=Number(document.querySelector("#seleccion3").value)
+
+    if(num1==9 && num2==1 && num3==1){
+        alert("Contraseña correcta")
+    }else{
+        alert("Contraseña incorrecta")
+    }
 }
 

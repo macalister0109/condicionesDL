@@ -8,12 +8,6 @@
   </head>
   <body>
     <header id="inicio">
-      <img
-        src="./assets/img/Logo Maca-16_BL.png"
-        class="logo"
-        alt="logotipo"
-        title="logotipo"
-      />
       <h1 class="title">Macarena Jamett</h1>
       <h2 class="title">Tarea Js 2</h2>
     </header>
@@ -94,7 +88,7 @@
       <section id="tarea3">
         <div id="password">
           <h2>Ingresa el password</h2>
-          <select name="seleccion1">
+          <select name="seleccion1" id="seleccion1">
             <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -106,7 +100,7 @@
             <option value="8">8</option>
             <option value="9">9</option>
           </select>
-          <select name="seleccion2">
+          <select name="seleccion2" id="seleccion2">
             <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -118,7 +112,7 @@
             <option value="8">8</option>
             <option value="9">9</option>
           </select>
-          <select name="seleccion3">
+          <select name="seleccion3" id="seleccion3">
             <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -130,6 +124,7 @@
             <option value="8">8</option>
             <option value="9">9</option>
           </select>
+          <button id="ingresar" onclick="verificarPassword()">Ingresar</button>
         </div>
       </section>
     </main>
